@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    background-color: white;
+    border-color: red;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#cadastros {
+
+    background-color: white;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+button {
+    padding: 5px;
+}
+
+#botaoSalvar {
+    margin-bottom: 30px;
+}
+
+#botaoMostrar,
+#botaoDeletar,
+#botaoAtualizar {
+    margin-bottom: 10px;
+}

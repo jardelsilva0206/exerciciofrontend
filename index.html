@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Petshop</title>
+</head>
+
+<body>
+    <div id="painel">
+        <h1>PetShop</h1>
+        <div id="divNome">
+            <label>Nome: </label>
+            <br>
+            <input id="nomeAnimal">
+        </div>
+        <br>
+        <div id="divEspecie">
+            <label>Espécie: </label>
+            <br>
+            <input id="especieAnimal">
+        </div>
+        <br>
+        <div id="divRaca">
+            <label>Raça: </label>
+            <br>
+            <input id="racaAnimal">
+        </div>
+        <br>
+        <div id="divAltura">
+            <label>Altura: </label>
+            <br>
+            <input id="alturaAnimal" type="number">
+        </div>
+        <br>
+        <div id="divPeso">
+            <label>Peso: </label>
+            <br>
+            <input id="pesoAnimal" type="number">
+        </div>
+        <br>
+        <div id="divPelagem">
+            <label>Tipo de pelagem/plumagem: </label>
+            <br>
+            <input id="pelagemPlumagemAnimal">
+        </div>
+        <br>
+        <div id="divTratamento">
+            <label>Tipo de tratamento: </label>
+            <br>
+            <select id="tipoTratamento">
+                <option>AtendimentoVeterinario</option>
+                <option>Banho</option>
+                <option>Tosa</option>
+            </select>
+        </div>
+        <br>
+        <button id="botaoSalvar" onclick=salvar()>Salvar animal</button>
+        <br>
+        <button id="botaoMostrar" onclick=mostrarAnimais()>Mostrar animais cadastrados</button>
+        <button id="botaoDeletar" onclick=deletarAnimal()>Deletar animal cadastrado</button>
+        <button id="botaoAtualizar" onclick=atualizarAnimal()>Atualizar animal cadastrado</button>
+    </div>
+    <div id="cadastros">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
